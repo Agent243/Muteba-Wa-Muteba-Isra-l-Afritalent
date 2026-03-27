@@ -46,4 +46,4 @@ Projet individuel réalisé dans le cadre du Semestre 2 (Groupe ISI).
 
 1. Cloner le dépôt :
    ```bash
-   git clone https://github.com/Agent243/Muteba-Wa-Muteba-Israël-AfriTalent.git```
+   git clone https://github.com/Agent243/Muteba-Wa-Muteba-Israël-AfriTalent.git
