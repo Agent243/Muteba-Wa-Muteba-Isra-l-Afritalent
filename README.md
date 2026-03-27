@@ -1,11 +1,10 @@
 # AfriTalent — Plateforme de mise en relation freelances tech en Afrique
 
-**Auteur :** Muteba Wa Muteba Israël ** 
-**Classe :** L1CS GROUPE ISI **  
-**Date de réalisation :** 27 Mars 2026  **
-**Dépôt GitHub :** https://github.com/Agent243/Muteba-Wa-Muteba-Isra-l-Afritalent/ ** 
-**Site en ligne (GitHub Pages) :** [Lien GitHub Pages]
-
+**Auteur :** Muteba Wa Muteba Israël** 
+**Classe :**L1CS GROUPE ISI**  
+**Date de réalisation :** 27 Mars 2026**
+**Dépôt GitHub :**https://github.com/Agent243/Muteba-Wa-Muteba-Isra-l-Afritalent/** 
+**Site en ligne (GitHub Pages) :**https://github.com/Agent243/Muteba-Wa-Muteba-Isra-l-Afritalent/**
 ## Description du projet
 
 AfriTalent est une plateforme fictive de mise en relation entre freelances tech (développeurs, designers, créateurs de contenu) et entreprises en Afrique. Ce **site vitrine complet** présente la plateforme, ses fonctionnalités, ses tarifs, des profils de freelances et convainc les visiteurs (freelances ET entreprises) de s’inscrire.  
