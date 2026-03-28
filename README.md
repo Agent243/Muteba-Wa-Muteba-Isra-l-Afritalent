@@ -1,49 +1,84 @@
-# AfriTalent — Plateforme de mise en relation freelances tech en Afrique
+#  AfriTalent - Plateforme de Freelances Tech en Afrique
 
-**Auteur** :**Muteba Wa Muteba Israël** 
-**Classe** :**L1CS GROUPE ISI**   
-**Date de réalisation** : **27 Mars 2026**
-**Dépôt GitHub** :**https://github.com/Agent243/Muteba-Wa-Muteba-Isra-l-Afritalent/** 
-**Site en ligne**:**https://github.com/Agent243/Muteba-Wa-Muteba-Isra-l-Afritalent/**
-## Description du projet
+**Projet Semestre 2 - Groupe ISI** 
+***Classe: L1CS***
+**Auteur :** Agent23  
+**Date :** Mars 2026  
 
-AfriTalent est une plateforme fictive de mise en relation entre freelances tech (développeurs, designers, créateurs de contenu) et entreprises en Afrique. Ce **site vitrine complet** présente la plateforme, ses fonctionnalités, ses tarifs, des profils de freelances et convainc les visiteurs (freelances ET entreprises) de s’inscrire.  
+---
 
-Le site respecte scrupuleusement les tendances web 2026 : design épuré, typographie expressive (Google Fonts), mise en page en **Bento Grid**, accessibilité totale, interactivité JavaScript vanilla et responsive design.  
+##  Description du Projet
 
-Projet individuel réalisé dans le cadre du Semestre 2 (Groupe ISI).
+**AfriTalent** est une plateforme fictive de mise en relation entre **freelances tech africains** et **entreprises**.  
+Ce site vitrine complet présente la plateforme, ses fonctionnalités, ses tarifs, des profils de freelances et convainc les visiteurs (freelances ET entreprises) de s’inscrire.
 
-## Technologies utilisées
+Le projet respecte **toutes les exigences du sujet** :
+- Design épuré et moderne (tendances 2026)
+- Bento Grid
+- Accessibilité
+- Dark/Light Mode persistant
+- Interactivité JavaScript vanilla
+- Responsive 100%
 
-- **HTML5** : Structure sémantique rigoureuse  
-- **CSS3** : Flexbox, Grid, Bento Grid, variables CSS, animations, responsive  
-- **Bootstrap 5** : Via CDN (navbar, cards, carousel, accordion, modal, grille)  
-- **JavaScript vanilla** : DOM, événements, IntersectionObserver, localStorage, validation formulaire  
-- **Google Fonts** : 2 polices (titres + corps)  
-- **Bootstrap Icons** : Toutes les icônes  
-- **Git & GitHub** : Versioning + GitHub Pages  
-- **Outils** : W3C Validator, Coolors, Unsplash/Pexels
+---
 
-## Fonctionnalités principales
+##  Technologies Utilisées
 
-- Navbar fixe et dynamique (changement au scroll)  
-- Dark/Light mode persistant (localStorage)  
-- Compteurs animés au scroll (IntersectionObserver)  
-- Filtrage dynamique des freelances (JS vanilla)  
-- Validation complète du formulaire de contact (regex + messages d’erreur)  
-- Bento Grid pour les sections « Comment ça marche » et « Chiffres clés »  
-- Carousel témoignages + accordion FAQ  
-- Bouton « Retour en haut » avec smooth scroll  
-- Animations fade-in au scroll  
-- Responsive 100 % (mobile 375px → desktop 1200px+)
+| Technologie            | Utilisation                                      |
+|------------------------|--------------------------------------------------|
+| **HTML5**              | Structure sémantique rigoureuse                  |
+| **CSS3**               | Variables, Flexbox, Grid, Bento Grid, animations |
+| **Bootstrap 5**        | Navbar, Cards, Carousel, Accordion, Modal        |
+| **JavaScript Vanilla** | Toutes les interactions (sans framework)         |
+| **Google Fonts**       | `Inter` + `Space Grotesk`                        |
+| **Bootstrap Icons**    | Toutes les icônes                                |
+| **Git & GitHub**       | Versioning + GitHub Pages                        |
 
-## Capture d’écran du site
+---
 
-![Screenshot complet d’AfriTalent](images/screenshot-home.png)  
-*(Capture d’écran de la page d’accueil – disponible dans le dossier `images/` du dépôt)*
+##  Fonctionnalités Principales
 
-## Instructions pour lancer le projet localement
+-  Navbar fixe et dynamique (changement au scroll)
+-  **Dark/Light Mode** persistant (`localStorage`)
+-  Compteurs animés au scroll (`IntersectionObserver`)
+-  Filtrage dynamique des freelances (sans rechargement)
+-  Validation complète du formulaire de contact
+-  Bento Grid sur "Comment ça marche" et "Chiffres clés"
+-  Carousel témoignages + Accordion FAQ
+-  Bouton "Retour en haut" avec smooth scroll
+-  Animations fade-in au scroll
+-  Responsive parfait (mobile 375px → desktop)
+
+---
+
+##  Documentation Détaillée du Code
+
+### 1. HTML5 – Structure Sémantique
+- `<!DOCTYPE html>` → Déclare le document HTML5
+- `<html lang="fr">` → Accessibilité et SEO
+- Balises sémantiques (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`) → Hiérarchie logique
+- Attributs `alt` sur toutes les images → Accessibilité
+
+### 2. CSS3 – Mise en Page Avancée
+- **Variables CSS** (`:root`) → Minimum 6 variables pour cohérence
+- **Bento Grid** → `display: grid` + `grid-template-areas` pour disposition asymétrique
+- **Dark Mode** → Classe `.dark-mode` qui surcharge toutes les couleurs
+- **Hover effects** → `transform`, `box-shadow` et `transition`
+- **Responsive** → Media queries + classes Bootstrap
+
+### 3. JavaScript Vanilla (`main.js`)
+- **Dark Mode** → `localStorage` + bascule de classe sur `<html>`
+- **Navbar dynamique** → Écoute du `scroll` + classe `.scrolled`
+- **Compteurs animés** → `IntersectionObserver` + `setInterval`
+- **Filtrage freelances** → `data-category` + affichage/masquage dynamique
+- **Validation formulaire** → Regex email + vérification longueur + messages d’erreur
+- **Bouton retour en haut** → Apparition conditionnelle + `scrollTo` smooth
+- **Fade-in au scroll** → `IntersectionObserver`
+
+---
+
+##  Instructions pour Lancer le Projet
 
 1. Cloner le dépôt :
    ```bash
-   git clone https://github.com/Agent243/Muteba-Wa-Muteba-Israël-AfriTalent.git
+   git clone https://github.com/Agent23/Muteba-Wa-Muteba-Isra-l-AfriTalent.git
