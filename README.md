@@ -1,7 +1,9 @@
 #  AfriTalent - Plateforme de Freelances Tech en Afrique
 
 **Projet Semestre 2 - Groupe ISI** 
+
 ***Classe: L1CS***
+
 **Auteur :** Agent23  
 **Date :** Mars 2026  
 
