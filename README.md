@@ -5,7 +5,7 @@
 **Auteur :** Agent23  
 **Date :** Mars 2026  
 
----
+-----------------------------------------------------------------------------------------------------------------------------------
 
 ##  Description du Projet
 
@@ -20,7 +20,7 @@ Le projet respecte **toutes les exigences du sujet** :
 - Interactivité JavaScript vanilla
 - Responsive 100%
 
----
+-----------------------------------------------------------------------------------------------------------------------------------
 
 ##  Technologies Utilisées
 
@@ -34,7 +34,7 @@ Le projet respecte **toutes les exigences du sujet** :
 | **Bootstrap Icons**    | Toutes les icônes                                |
 | **Git & GitHub**       | Versioning + GitHub Pages                        |
 
----
+-----------------------------------------------------------------------------------------------------------------------------------
 
 ##  Fonctionnalités Principales
 
@@ -74,8 +74,10 @@ Le projet respecte **toutes les exigences du sujet** :
 - **Validation formulaire** → Regex email + vérification longueur + messages d’erreur
 - **Bouton retour en haut** → Apparition conditionnelle + `scrollTo` smooth
 - **Fade-in au scroll** → `IntersectionObserver`
-
----
+---------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+ #### Made By AGENT23 ####
 
 ##  Instructions pour Lancer le Projet
 
