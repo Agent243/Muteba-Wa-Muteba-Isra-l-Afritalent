@@ -25,7 +25,7 @@ Le projet respecte **toutes les exigences du sujet** :
 -----------------------------------------------------------------------------------------------------------------------------------
 
 ##  Technologies Utilisées
-
+_____________________________________________________________________________
 | Technologie            | Utilisation                                      |
 |------------------------|--------------------------------------------------|
 | **HTML5**              | Structure sémantique rigoureuse                  |
@@ -35,7 +35,8 @@ Le projet respecte **toutes les exigences du sujet** :
 | **Google Fonts**       | `Inter` + `Space Grotesk`                        |
 | **Bootstrap Icons**    | Toutes les icônes                                |
 | **Git & GitHub**       | Versioning + GitHub Pages                        |
-
+|                        |                                                  |
+_____________________________________________________________________________
 -----------------------------------------------------------------------------------------------------------------------------------
 
 ##  Fonctionnalités Principales
